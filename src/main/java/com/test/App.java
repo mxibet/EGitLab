@@ -14,6 +14,9 @@ public class App {
 
     @RequestMapping(value = "/")
     String hello() {
-        return "Hello World MASTER 002!";
+    	if(true)
+    		return "Hello World MASTER 002!";
+    	else
+    		return "Hello World MASTER 002! else";
     }
 }
