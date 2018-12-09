@@ -16,4 +16,8 @@ public class App {
     String hello() {
     	return "Hello World MASTER 004!";
     }
+    
+    private void myMethod(){
+    	System.out.println("This is my method");
+    }
 }
