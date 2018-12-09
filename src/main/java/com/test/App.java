@@ -20,4 +20,8 @@ public class App {
     private void myMethod(){
     	System.out.println("This is my method");
     }
+    
+    private String printMessage() {
+    	return "This is printMessage in MAINTENANCE";
+    }
 }
