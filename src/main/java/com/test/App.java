@@ -14,6 +14,6 @@ public class App {
 
     @RequestMapping(value = "/")
     String hello() {
-        return "Hello World MASTER!";
+        return "Hello World MASTER o2!";
     }
 }
