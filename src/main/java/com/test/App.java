@@ -16,4 +16,8 @@ public class App {
     String hello() {
     	return "Hello World MASTER 004!";
     }
+    
+    private String printMessage() {
+    	return "This is printMessage in MAINTENANCE";
+    }
 }
